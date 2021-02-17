@@ -85,7 +85,7 @@ namespace Vaquinha.Unit.Tests.DomainTests
         [InlineData(5500.50)]
         [InlineData(5000.1)]
         [InlineData(4505)]
-        [InlineData(4500.1)]
+        [InlineData(4500.01)]
         [Trait("Doacao", "Doacao_ValoresDoacaoMaiorLimite_DoacaoInvalida")]
         public void Doacao_ValoresDoacaoMaiorLimite_DoacaoInvalida(double valorDoacao)
         {
